@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang='en' dir='ltr'>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Taylor Pessetti Portfolio</title>
+    </head>
+    <body>
+        <div class="skip"><a href="#contact-header">Skip to Main Content</a></div>
+        <div class="container-contact">
+            <div class="nav">
+                <h1>Taylor Pessetti</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="leadership.html">Leadership</a></li>
+                        <li><a href="photos.html">Photos</a></li>
+                        <li><a class = 'current' href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        <div id = 'contact-header'>
+                <h1>Contact</h1>
+        </div>
+        <form class="form-horizontal" method="post">
+                <fieldset>
+                    <legend class="text-center">Contact Information</legend>
+            
+                    <div class="form-group">
+                        <span><i class="firstname"></i></span>
+                        <div>
+                            <input id="fname" name="name" type="text" placeholder="First Name" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <span><i class="lastname"></i></span>
+                        <div>
+                            <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control" required>
+                        </div>
+                    </div>
+            
+                    <div class="form-group">
+                        <span><i class="email"></i></span>
+                        <div>
+                            <input id="email" name="email" type="email" placeholder="Email Address" class="form-control" required>
+                        </div>
+                    </div>
+            
+                    <div class="form-group">
+                        <span><i class="phonenumber"></i></span>
+                        <div>
+                            <input id="phone" name="phone" type="tel" pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone (use format ###-###-####)" class="form-control"required>
+                        </div>
+                    </div>
+            
+                    <div class="form-group">
+                        <span><i class = "message"></i></span>
+                        <div>
+                            <textarea class="form-control" id="message" name="message" placeholder="Enter your message here!" required></textarea>
+                        </div>
+                    </div>
+            
+                    <div class="form-group">
+                        <div>
+                            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <footer>
+                <p>Taylor Pessetti</p>
+            </footer>
+    </body>
+</html>
